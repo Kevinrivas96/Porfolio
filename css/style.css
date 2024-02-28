@@ -3,10 +3,6 @@ body {
     padding: 0;
 }
 
-.row>div {
-    min-height: 100vh;
-}
-
 .social-icons a {
     display: inline-block;
     height: 3rem;
@@ -22,4 +18,18 @@ body {
 
 a {
     text-decoration: none;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+}
+
+.resume-section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 45px;
 }
